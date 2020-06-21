@@ -1,0 +1,35 @@
+
+/**************
+* Source List *
+**************/
+
+
+.source-list.level-bar,
+.source-list.level-bar:selected,
+.source-list.level-bar:selected:focus {
+    background-color: #fff;
+    border: 1px solid alpha (#000, 0.60);
+    box-shadow: inset -36px 10px 5px 43px rgba(255,252,255,0);
+    border-radius: 3px;
+    color: blue;
+}
+
+.source-list.fill-block,
+.source-list.fill-block:hover,
+.source-list.fill-block:selected,
+.source-list.fill-block:selected:focus {
+    background-image: none;
+    background-color: #45D0FE;
+}
+
+.source-list.level-bar.fill-block {
+    border: none;
+}
+
+
+
+
+
+
+
+
